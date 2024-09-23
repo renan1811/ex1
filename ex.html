@@ -1,0 +1,15 @@
+<script>
+    const numero = Number(prompt(`me de um numero`))
+    let resultado ;
+
+    if (numero >= 2 && numero < 8) {
+        resultado = numero * 2 ;
+    } else if (numero <= 15) {
+        resultado = numero * numero ;
+    } else if (numero < 90) {
+        resultado = numero * 3 ;
+    } else {
+        resultado = numero ;
+    }
+    document.write(`O numero que voce escolheu e ${numero} <br> E o resultado e ${resultado}`) ;
+</script>
